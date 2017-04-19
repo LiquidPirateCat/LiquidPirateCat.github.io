@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html style="display: block;">
+<html>
 <head>
   <meta charset="UTF-8">
   <title>Knowledge base</title>
-  <href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <link rel="stylesheet" href="style.css">
       <script src="script.js" charset="utf-8"></script>
 
 </head>
 
 <body>
-  <!--Titel-->
+  <!--Title-->
   <section class="container">
   <h1>
     <br />
@@ -21,30 +21,45 @@
   </h1>
 </section>
 
+<!--Zoekbalk-->
+<form align="center">
+    <input type="text" placeholder="Zoek iets op..." required class="search">
+    <input type="button" value="Zoek" class="btnsearch">
+</form>
+
 <!--Icoontjes-->
-<table align="center">
-  <tr>
-    <h1>
+<div style="text-align: center;">
 
-    <td><a href="afspraken.html"><img src="https://www.icloud.com/system/cloudos/17BHotfix5/cloudos_foundation/17BHotfix5/en-us/source/resources/images/app_icons/reminders_icon@2x.png" alt="" class="icon" style="height: 182px; width: 182px;"></a></td>
-    <td><img src="https://www.icloud.com/system/cloudos/17BHotfix5/cloudos_foundation/17BHotfix5/en-us/source/resources/images/app_icons/fmf_icon@2x.png" alt="" class="icon"></td>
-    <td><img src="controlcenter.png" class="icon"></td>
-    <td><img src="Multitaks.png" class="icon"></td>
-  </tr>
-  <tr>
-      <td class="icontext">Afspraken</td>
-      <td class="icontext">Situaties</td>
-      <td class="icontext">Grenzen</td>
-      <td class="icontext">Categoriëen</td>
-  </tr>
-</table>
+  <div class="icon-div" style="display: inline-block;">
+    <a href="afspraken.html">
+      <img src="https://www.icloud.com/system/cloudos/17BHotfix5/cloudos_foundation/17BHotfix5/en-us/source/resources/images/app_icons/reminders_icon@2x.png" class="icon">
+    </a>
+    <span class="icontext">Afspraken</span>
+  </div>
 
+  <div class="icon-div">
+    <img src="https://www.icloud.com/system/cloudos/17BHotfix5/cloudos_foundation/17BHotfix5/en-us/source/resources/images/app_icons/fmf_icon@2x.png" class="icon">
+    <span class="icontext">Situaties</span>
+  </div>
+
+  <div class="icon-div">
+    <img src="controlcenter.png" class="icon">
+    <span class="icontext">Grenzen</span>
+  </div>
+
+  <div class="icon-div">
+    <img src="Multitaks.png" class="icon">
+    <span class="icontext">Categoriëen</span>
+  </div>
+
+</div>
+
+<div style="text-align: center;">
+  <input type="button" value="contact" class="contactbtn">
+</div>
 
 
 <!--Contact-->
-<input type="button" class="contactbtn" value="Contact">
-
-
-
+</body>
 
 </html>
